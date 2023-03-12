@@ -1,8 +1,7 @@
-import { Header } from "react-native/Libraries/NewAppScreen";
+import Aplication from "./itens/Aplication"
 
 export default function App(): JSX.Element {
-
   return(
-    <Header/>
+      <Aplication />
   )
 }

@@ -19,4 +19,4 @@ A aplicação de controle de fluxo está sendo desenvolvida para gerenciar de fo
 <img height="50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoRuyBgp5ERWdVHdsV9BsA3xbHByp8yTiGcQ&usqp=CAU" />
 
 
-## Duvidas mande um email para eduardvitor7@gmail.com
+## Duvidas? mande um email para eduardvitor7@gmail.com
