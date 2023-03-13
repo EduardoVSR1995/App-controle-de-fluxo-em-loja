@@ -1,5 +1,13 @@
+import { UserLogin } from "./UserLogin";
+
+export interface OptionsConect{
+    rout: string, 
+    token?: string, 
+    body?: UserLogin   
+}
+
 export class Conect{
-  method?: "GET" | "DELET" | "POST" | "PUT";
+  method: "GET" | "DELET" | "POST" | "PUT";
   headers: {
     "Authorization"?: string | undefined,
     "Content-Type": "application/json"
@@ -10,7 +18,7 @@ export class Conect{
       "Authorization"?: string | undefined,
       "Content-Type": "application/json"
     },
-    method?: "GET" | "DELET" | "POST" | "PUT", 
+    method: "GET" | "DELET" | "POST" | "PUT", 
     ){
       this.method = method,
       this.headers = headers   

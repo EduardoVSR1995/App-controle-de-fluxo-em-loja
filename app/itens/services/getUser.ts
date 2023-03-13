@@ -1,11 +1,10 @@
 import { conect } from "../conect/conect";
 import { UserLogin } from "../models/UserLogin";
 
-export class getUser extends UserLogin{   
-  private static INSTANCE: conect; 
+export class getUser{   
 
-  signin({email, password}: UserLogin ){
-    
-    
+  signin(body: UserLogin ){
+    const conection = new conect;
+    return conection.post({rout: "signin", body})
   };
 };
