@@ -1,4 +1,4 @@
-import { UserLogin } from "./UserLogin";
+import { UserLogin } from "./UserLoginRegister";
 
 export interface OptionsConect{
     rout: string, 
